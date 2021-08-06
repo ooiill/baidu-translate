@@ -14,7 +14,7 @@ brew install luarocks
 * git clone https://github.com/ooiill/baidu-translate.git
 * cd baidu-translate
 * chmod a+x main.lua
-* luarocks install --server=http://rocks.moonscript.org/manifests/amrhassan --local json4Lua
+* sudo luarocks install json4Lua
 * ./main.lua `hello`
 * ./main.lua `你好` `zh` `en`
 
